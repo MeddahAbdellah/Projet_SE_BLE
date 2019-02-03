@@ -107,8 +107,6 @@ int main()
                 printf("MAC Recived From BLE : %s\n", mac); 
                 close(fd); 
                 sem_wait(sem_id);
-                shared_msg->validation=1;
-                printf("The validation is %d \n",shared_msg->validation);
                 strcpy(shared_msg->mac, mac );
                 printf("The Shared Mac is : %s\n",shared_msg->mac);
                 sem_post(sem_id);
