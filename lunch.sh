@@ -1,0 +1,5 @@
+x-terminal-emulator --title="Node" --command="sudo node index.js"
+x-terminal-emulator --title="Ble" --command="./Ble"
+x-terminal-emulator --title="Leds" --command="./client"
+x-terminal-emulator --title="Wifi" --command="./wifi"
+x-terminal-emulator --title="Servo" --command="./servo"
